@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub - Recipe Catalog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        .recipe-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .recipe-card {
+            text-decoration: none;
+            color: black;
+            position: relative;
+        }
+
+        .recipe-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        .recipe-details {
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            z-index: 1;
+        }
+
+        .recipe-card:hover .recipe-details {
+            display: block;
+        }
+
+        .recipe-details p,
+        .recipe-details ul,
+        .recipe-details ol {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+	<h1 style="text-align: center;">Welcome to Recipe Hub</h1>
+	<a href="home.html" style="display: block; text-align: center;">
+    		<img src="recipehub.png" style="width: 30cm; height: 15cm; margin: 0 auto;">
+	</a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+	    <li><a href="catalog.html">Recipe Catalog</a></li>
+            <li><a href="individual.html">Individual Recipe</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    
+
+    	<!-- Individual Recipe -->
+    	<section>
+        	<header>
+            	<h2>Recipe Catalog</h2>
+        	</header>
+
+        	<!-- Recipe Cards -->
+        	<div class="recipe-cards">
+            	<a href="vegetarian_chili.html">
+                	<img src="placeholder_vegetarian_chili.jpg" alt="Vegetarian Chili">
+                	<h3>Vegetarian Chili</h3>
+            	</a>
+            
+        
+            	<a href="pozole.html">
+                	<img src="placeholder_pozole.jpg" alt="Pozole">
+                	<h3>Pozole</h3>
+            	</a>
+            	<a href="pepper_steak.html">
+                	<img src="placeholder_pepper_steak.jpg" alt="Best Pepper Steak">
+                	<h3>Best Pepper Steak</h3>
+            	</a>
+            	<a href="espresso_martini.html">
+                	<img src="placeholder_espresso_martini.jpg" alt="Espresso Martini">
+                	<h3>Espresso Martini</h3>
+            	</a>
+        	</div>
+    	</section>
+    </nav>
+    <section id="recipe2" class="recipe">
+        <img src="placeholder_pozole.jpg" alt="Pozole">
+        <h2>Pozole</h2>
+    	<p>Ingredients:</p>
+    	<ul>
+        	<li>3 lb. pork shoulder, cut into 2" pieces</li>
+        	<li>Kosher salt</li>
+        	<li>Freshly ground black pepper</li>
+        	<li>1 large yellow onion, quartered</li>
+        	<li>3 cloves garlic, sliced</li>
+        	<li>4 c. low-sodium chicken broth</li>
+        	<li>1 tsp. cumin seeds</li>
+        	<li>1 bay leaf</li>
+        	<li>2 dried ancho chiles, stem and seeds removed</li>
+        	<li>2 dried chiles de árbol, stem and seeds removed</li>
+        	<li>2 dried guajillo chiles, stem and seeds removed</li>
+        	<li>3 (15-oz.) cans hominy, drained, rinsed</li>
+        	<li>Thinly sliced radishes, thinly sliced green cabbage, and chopped fresh cilantro, for serving</li>
+    	</ul>
+    	<p>Directions:</p>
+    	<ol>
+        	<li>In a large bowl, season pork with salt and pepper. In a large pot over medium heat, combine pork, onion, garlic, broth, cloves, cumin seeds, and bay leaf. Add enough water to cover pork by 2". Bring to a boil, then cover, reduce heat to medium-low, and bring to a simmer. Cook, skimming foam off top as needed, 1 hour 30 minutes.</li>
+        	<li>Meanwhile, in a medium heatproof bowl, soak chiles in 2 cups boiling water for 30 minutes.</li>
+        	<li>Transfer chiles and about 1/2 cup soaking liquid to a blender. Blend until smooth, adding more water as needed.</li>
+        	<li>Add chile puree and hominy to pot with pork. Cover and continue to simmer, stirring occasionally, until pork is very tender, about 1 hour 30 minutes more; season with salt and pepper.</li>
+        	<li>Top pozole with radishes, cabbage, and cilantro.</li>
+    	</ol>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Recipe Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tharinidi's Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tharindi Bandara</h1>
+  </header>
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate individual who loves to explore the wonders of technology and express creativity through various mediums. 
+    </p>
+    <img src="file:///C:/Users/User/Desktop/tharini/Lawanya/20230915_093731.jpg" alt="me">
+    <p>
+      Hi there! I'm Tharindi Bandara, and I'm thrilled to welcome you to my little corner of the web. Currently, I'm immersed in the vibrant world of learning at the University of Moratuwa in Katubedda, Moratuwa. Originally from the scenic Bandaragama in the Kalutara District, I've always been captivated by the ever-evolving landscape of technology.
+
+When I'm not engrossed in the world of code and innovation, you'll often find me indulging in my passions. Singing and dancing have long been avenues for me to express my creativity, while hiking serves as my ticket to thrilling adventures and exploration. Above all, I absolutely adore going on picnics and outings with my friends - these moments always hold a special place in my heart.
+    </p>
+    <img src="file:///C:/Users/User/Desktop/tharini/Lawanya/20230915_094213.jpg" alt="picnic with my crew">
+    
+    <h2>Contact Details</h2>
+    <ul>
+      <li>Email: tharinibandara123@gmail.com</li>
+      <li>Phone: 0716164255</li>
+      <li>Address: Kothalawala, Bandaragama, Kalutara District</li>
+    </ul>
+    
+    <h2>Social Media</h2>
+    <p>
+      Follow me on:
+      
+    
+      <a href="https://www.instagram.com/itstharini">Instagram</a>
+    </p>
+  </div>
+</body>
+</html>

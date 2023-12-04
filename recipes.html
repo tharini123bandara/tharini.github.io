@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        .recipe {
+            background-color: white;
+            padding: 1em;
+            margin: 1em 0;
+        }
+
+        .recipe img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+
+        .recipe-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .recipe-card {
+            width: 200px;
+            margin: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipe Catalog</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="home">
+        <header>
+            <h1>Welcome to Recipe Hub</h1>
+            <p>Your go-to place for delicious recipes!</p>
+        </header>
+    </section>
+
+    <!-- Recipe Catalog -->
+    <section id="recipes">
+        <h2>Recipe Catalog</h2>
+
+        <!-- Recipe Cards -->
+        <div class="recipe-cards">
+            <a href="#recipe1" class="recipe-card">
+                <img src="placeholder_vegetarian_chili.jpg" alt="Vegetarian Chili">
+                <h3>Vegetarian Chili</h3>
+            </a>
+            <a href="#recipe2" class="recipe-card">
+                <img src="placeholder_pozole.jpg" alt="Pozole">
+                <h3>Pozole</h3>
+            </a>
+            <a href="#recipe3" class="recipe-card">
+                <img src="placeholder_pepper_steak.jpg" alt="Best Pepper Steak">
+                <h3>Best Pepper Steak</h3>
+            </a>
+            <a href="#recipe4" class="recipe-card">
+                <img src="placeholder_espresso_martini.jpg" alt="Espresso Martini">
+                <h3>Espresso Martini</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Individual Recipe Pages -->
+    <section id="recipe1" class="recipe">
+        <img src="placeholder_vegetarian_chili.jpg" alt="Vegetarian Chili">
+        <h2>Vegetarian Chili</h2>
+        <p>Ingredients: ...</p>
+        <p>Directions: ...</p>
+    </section>
+
+    <section id="recipe2" class="recipe">
+        <img src="placeholder_pozole.jpg" alt="Pozole">
+        <h2>Pozole</h2>
+        <!-- Include the detailed HTML structure for this recipe -->
+    </section>
+
+    <section id="recipe3" class="recipe">
+        <img src="placeholder_pepper_steak.jpg" alt="Best Pepper Steak">
+        <h2>Best Pepper Steak</h2>
+        <!-- Include the detailed HTML structure for this recipe -->
+    </section>
+
+    <section id="recipe4" class="recipe">
+        <img src="placeholder_espresso_martini.jpg" alt="Espresso Martini">
+        <h2>Espresso Martini</h2>
+        <!-- Include the detailed HTML structure for this recipe -->
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <header>
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Drop us a message!</p>
+        </header>
+
+        <section class="contact-form">
+            <!-- Add your contact form here -->
+            <form>
+                <!-- Input fields for name, email, message, etc. -->
+                <!-- Submit button -->
+            </form>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Recipe Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
